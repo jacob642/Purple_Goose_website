@@ -14,7 +14,7 @@ const SITE = {
     name: "Purple Goose Studios",
     tagline: "Independent studio building native apps for iPhone and Apple Watch.",
     heroTitle: "We build apps people <em>keep opening.</em>",
-    heroText: "Purple Goose Studios is an independent app studio. We design, build and ship our own products, and we partner with businesses who need an app done properly.",
+    heroText: "Purple Goose Studios is a small app studio building native products for the Apple ecosystem, and helping businesses turn ideas into apps people actually use.",
     email: "hello@purplegoosestudios.com",
     year: 2026,
     social: [
@@ -28,13 +28,13 @@ const SITE = {
   },
  
   about: {
-    intro: "Purple Goose Studios is an independent app studio based in the UK, focused on native Apple apps.",
+    intro: "Purple Goose Studios is a small UK-based app studio making native apps for iPhone and Apple Watch.",
     story: [
-      "Every app we ship is native. We write Swift and SwiftUI for Apple platforms, so each app feels at home on the device it runs on.",
-      "I keep the studio small on purpose. You work directly with the person writing the code, from the first sketch to the App Store release and every update after it."
+      "We build in Swift and SwiftUI, so each app feels native to the platform it lives on instead of bolted on after the fact.",
+      "The studio stays intentionally small, which means you deal directly with the person building the app from the first idea through launch and updates."
     ],
     team: [
-      { name: "connor change it here", role: "Co-founder · iOS lead", bio: "connor change it here" },
+      { name: "connor change it here", role: "Co-founder · iOS lead", bio: "connor change it here", linkedin: "https://www.linkedin.com/in/connor-bray-bb519b358/" },
       { name: "jacob james", role: "Co-founder", linkedin: "https://www.linkedin.com/in/jacobjames1322/" }
     ],
     services: [
