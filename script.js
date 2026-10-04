@@ -17,10 +17,7 @@ const SITE = {
     heroText: "Purple Goose Studios is a small app studio building native products for the Apple ecosystem, and helping businesses turn ideas into apps people actually use.",
     email: "hello@purplegoosestudios.com",
     year: 2026,
-    social: [
-      { label: "App Store developer page", url: "https://apps.apple.com" },
-      { label: "LinkedIn", url: "https://www.linkedin.com" }
-    ],
+
     // Optional: paste a Formspree (or similar) endpoint URL here once the site
     // is on your own domain and the contact form will send messages to you.
     // Leave empty to show just the email address.
