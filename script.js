@@ -31,13 +31,13 @@ const SITE = {
       "The studio stays intentionally small, which means you deal directly with the person building the app from the first idea through launch and updates."
     ],
     team: [
-      { name: "connor change it here", role: "Co-founder · iOS lead", bio: "connor change it here", linkedin: "https://www.linkedin.com/in/connor-bray-bb519b358/" },
-      { name: "jacob james", role: "Co-founder", linkedin: "https://www.linkedin.com/in/jacobjames1322/" }
+      { name: "Connor Bray", role: "Co-founder · iOS lead", linkedin: "https://www.linkedin.com/in/connor-bray-bb519b358/" },
+      { name: "Jacob James", role: "Co-founder", linkedin: "https://www.linkedin.com/in/jacobjames1322/" }
     ],
     services: [
       { title: "iOS & watchOS apps", text: "Native SwiftUI apps with SwiftData storage, widgets and Apple Watch companions." },
       { title: "Backends", text: "Supabase auth, databases, realtime data, edge functions and push notifications." },
-      { title: "Design to App Store", text: "Prototyping, UI design, TestFlight betas and App Store submission." }
+      { title: "Android Apps", text: "Native Kotlin apps with Jetpack Compose, Room storage, widgets and Wear OS companions." }
     ]
   },
  
@@ -45,7 +45,7 @@ const SITE = {
     {
       id: "ischys",
       name: "Ischys",
-      tagline: "Rank every muscle, from Mortal to Olympian.",
+      tagline: "Track everything in the gym.",
       status: "dev",
       color: "#B23A1F",
       color2: "#E0892F",
@@ -67,8 +67,8 @@ const SITE = {
     },
     {
       id: "swindle",
-      name: "Swindle",
-      tagline: "The golf scorecard your whole group plays on.",
+      name: "Swindle Scorecard",
+      tagline: "The golf tracker for all golf needs.",
       status: "beta",
       color: "#0B6E4F",
       color2: "#5CB88A",
@@ -92,21 +92,12 @@ const SITE = {
  
   clients: [
     {
-      name: "connor change it here",
-      industry: "connor change it here",
+      name: "Swanline",
+      industry: "Packaging",
       year: "2026",
-      services: ["connor change it here"],
-      description: "connor change it here",
-      quote: "connor change it here",
-      link: ""
-    },
-    {
-      name: "connor change it here",
-      industry: "connor change it here",
-      year: "2025",
-      services: ["connor change it here"],
-      description: "connor change it here",
-      quote: "connor change it here",
+      services: ["Tailored App Creation, Tweaking, Monitoring, Maintenance, Private App"],
+      description: "Cleaning app which makes it easier to keep track of your cleaning schedule and tasks, across multiple units and locations. User friendly for all age ranges and abilities. Keeps all logged information through the cloud, easily accessible for any audit purposes. Private information only for company access.",
+      quote: "5 star service",
       link: ""
     }
   ]
