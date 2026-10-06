@@ -285,8 +285,14 @@ function render() {
   else { page = "home"; html = views.home(); }
   $("#app").innerHTML = `<div class="view">${html}</div>`;
   document.querySelectorAll("#nav a").forEach(a => a.setAttribute("aria-current", a.dataset.page === page ? "page" : "false"));
+  setMobileMenu(false);
   window.scrollTo(0, 0);
   wire();
+}
+
+function setMobileMenu(open) {
+  document.querySelector("header.bar").classList.toggle("menu-open", open);
+  $("#menuToggle").setAttribute("aria-expanded", String(open));
 }
  
 function wire() {
@@ -315,6 +321,9 @@ function wire() {
 $("#brandName").textContent = SITE.studio.name;
 $("#brandMark").textContent = SITE.studio.name[0];
 $("#nav").innerHTML = PAGES.map(([id, label]) => `<a href="#${id}" data-page="${id}">${label}</a>`).join("");
+$("#menuToggle").addEventListener("click", () => {
+  setMobileMenu($("#menuToggle").getAttribute("aria-expanded") !== "true");
+});
 $("#footLeft").textContent = `© ${SITE.studio.year} ${SITE.studio.name}`;
 $("#footRight").textContent = SITE.studio.email;
 document.title = SITE.studio.name;
