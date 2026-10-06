@@ -1,15 +1,15 @@
 /* Layout: sticky studio bar, one view per section (hash-routed), app "shelf" of squircle icons as the signature element */
 :root {
-  --bg: #EEF1EC;
-  --surface: #F8FAF6;
-  --ink: #13201A;
-  --muted: #56645C;
-  --line: #D3DAD2;
-  --accent: #0B6E4F;
-  --accent-ink: #F3FBF6;
-  --live: #0B6E4F;
-  --beta: #9A5B00;
-  --dev: #4B5A8C;
+  --bg: #f3e9df;
+  --surface: #e8d3bf;
+  --ink: #321b3d;
+  --muted: #674f5f;
+  --line: #cbb5a4;
+  --accent: #6d2a87;
+  --accent-ink: #fff7fc;
+  --live: #426b50;
+  --beta: #805019;
+  --dev: #6d2a87;
   --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --body: "Figtree", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -17,14 +17,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0F1613; --surface: #16201B; --ink: #E4ECE6; --muted: #98A89F; --line: #27352D;
-    --accent: #4FD1A1; --accent-ink: #06140E; --live: #4FD1A1; --beta: #F0B45A; --dev: #9DAEEB;
+    --bg: #211922; --surface: #3b2d30; --ink: #f5eaf2; --muted: #c7b2c2; --line: #5b4652;
+    --accent: #d9a0ed; --accent-ink: #24152a; --live: #8fd0a1; --beta: #f0bd78; --dev: #d9a0ed;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0F1613; --surface: #16201B; --ink: #E4ECE6; --muted: #98A89F; --line: #27352D;
-  --accent: #4FD1A1; --accent-ink: #06140E; --live: #4FD1A1; --beta: #F0B45A; --dev: #9DAEEB;
+  --bg: #211922; --surface: #3b2d30; --ink: #f5eaf2; --muted: #c7b2c2; --line: #5b4652;
+  --accent: #d9a0ed; --accent-ink: #24152a; --live: #8fd0a1; --beta: #f0bd78; --dev: #d9a0ed;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -104,8 +104,8 @@ main { padding-block: clamp(32px, 6vw, 72px) 80px; }
 .spec dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
  
 /* Clients */
-.client-list { display: grid; border-top: 1px solid var(--ink); }
-.client { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 32px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+.client-list { display: grid; }
+.client { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 32px; padding-block: 28px; }
 .client .who { display: grid; gap: 8px; align-content: start; }
 .client h3 { font-size: 1.5rem; }
 .client .what { display: grid; gap: 12px; }
@@ -116,7 +116,7 @@ main { padding-block: clamp(32px, 6vw, 72px) 80px; }
 /* About */
 .about-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 48px; }
 .team { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
-.person { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); display: grid; gap: 6px; }
+.person { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); display: grid; gap: 6px; }
 .person .avatar { width: 52px; height: 52px; border-radius: 50%; background: var(--ink); color: var(--bg); display: grid; place-items: center; font: 700 1.1rem var(--display); margin-bottom: 8px; }
 .person h3 { font-size: 1.2rem; }
 .person .role { font: 500 .75rem var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }

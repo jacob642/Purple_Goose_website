@@ -12,10 +12,10 @@
 const SITE = {
   studio: {
     name: "Purple Goose Studios",
-    tagline: "Independent studio building native apps for iPhone and Apple Watch.",
-    heroTitle: "We build apps people <em>keep opening.</em>",
-    heroText: "Purple Goose Studios is a small app studio building native products for the Apple ecosystem, and helping businesses turn ideas into apps people actually use.",
-    email: "hello@purplegoosestudios.com",
+    tagline: "Independent studio building native apps",
+    heroTitle: "We try our best",
+    heroText: "Purple Goose Studios is a small app studio building native products, and helping businesses turn ideas into apps.",
+    email: "purplegoosestudios@outlook.com",
     year: 2026,
 
     // Optional: paste a Formspree (or similar) endpoint URL here once the site
