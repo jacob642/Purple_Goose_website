@@ -13,7 +13,7 @@ const SITE = {
   studio: {
     name: "Purple Goose Studios",
     tagline: "Independent studio building native apps",
-    heroTitle: "We try our best",
+    heroTitle: "Bespoke Apps and Software Solutions",
     heroText: "Purple Goose Studios is a small app studio building native products, and helping businesses turn ideas into apps.",
     email: "purplegoosestudios@outlook.com",
     year: 2026,
@@ -27,7 +27,7 @@ const SITE = {
   about: {
     intro: "Purple Goose Studios is a small UK-based app studio making native apps for iPhone and Apple Watch.",
     story: [
-      "We build in Swift and SwiftUI, so each app feels native to the platform it lives on instead of bolted on after the fact.",
+      "We build in Swift and Kotlin, so each app feels native to the platform it lives on instead of bolted on after the fact.",
       "The studio stays intentionally small, which means you deal directly with the person building the app from the first idea through launch and updates."
     ],
     team: [
